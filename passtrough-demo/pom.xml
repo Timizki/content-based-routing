@@ -13,9 +13,9 @@
 	<description>Simple content based SOAP routing with camel</description>
 
 	<parent>
-		 <groupId>io.vksn.examples</groupId>
-	        <artifactId>content-based-routing</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
+		<groupId>io.vksn.examples</groupId>
+		<artifactId>content-based-routing</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<dependencies>
@@ -40,6 +40,18 @@
 			<artifactId>camel-http4</artifactId>
 			<version>2.22.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-mail</artifactId>
+			<version>2.22.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-jaxb</artifactId>
+			<version>2.22.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
